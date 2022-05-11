@@ -96,6 +96,7 @@ Kafka Cluster 내의 브로커 중 하나가 Controller가 됨
 
 ### High Water Mark 
 
+- ISR(Leader-Follower)간에 복제된 Offset
 - 가장 최근에 Committed 메시지의 Offset 추적 
 - replication-offset-checkpoint 파일에 체크포인트를 기록
 
